@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class Main {
     public static void main(String[] args) {
 
-//initialize vars
+// promenne
         JFrame okno = new JFrame();
 
         JLabel popis = new JLabel("Zde prosím zadejte kvadratickou rovnici ve formátu ax²+bx+c=0. Nezapomeňte zadat znaménka! ");
@@ -97,10 +97,10 @@ public class Main {
         okno.add(v2);
 
 //nastaveni zbylejch rozmeru okna a setvisible
-        okno.setTitle("First GUI");
+        okno.setTitle("Kalkulacka");
         okno.setSize(620,250);
         okno.setVisible(true);
-        okno.setResizable(true);  //klidne mohu zmenit je to fuk
+        okno.setResizable(true);  
         okno.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
